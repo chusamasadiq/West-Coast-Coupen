@@ -209,7 +209,7 @@ class _ProductScreenState extends State<ProductScreen> {
                                     ),
                                   ),
                                 )
-                              : const Text('');
+                              : Container();
                         },
                       );
                     } else if (snapshot.hasError) {
